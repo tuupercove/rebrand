@@ -8,5 +8,13 @@ export default defineNuxtConfig({
     }
   },
 
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n"]
+  modules: [//"@nuxtjs/tailwindcss",
+  "@nuxtjs/i18n", "@nuxt/image", "nuxt-icon", "@nuxtjs/seo", "@nuxt/ui", "@nuxtjs/device", "@nuxt/fonts", "nuxt-gtag", "@formkit/nuxt", "nuxt-icons", "nuxt-svgo"],
+  alias: {
+    '#tailwind-config': './tailwind.config.js'
+  },
+  ui: {
+    global: true,
+    icons: ['mdi', 'simple-icons']
+  }
 })
