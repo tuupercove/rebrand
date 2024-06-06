@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.0",
+    "@iconify-json/mdi": "^1.1.66",
+    "@iconify/json": "^2.2.217",
     "@nuxt/image": "latest",
     "@nuxt/ui": "^2.16.0",
     "@nuxtjs/i18n": "latest",
