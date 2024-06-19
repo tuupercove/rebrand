@@ -9,7 +9,7 @@ export default defineNuxtConfig({
   },
 
   modules: [//"@nuxtjs/tailwindcss",
-  "@nuxtjs/i18n", "@nuxt/image", "nuxt-icon", "@nuxtjs/seo", "@nuxt/ui", "@nuxtjs/device", "@nuxt/fonts", "nuxt-gtag", "@formkit/nuxt", "nuxt-icons", "nuxt-svgo", "@nuxthub/core"],
+  "@nuxtjs/i18n", "@nuxt/image", "nuxt-icon", "@nuxtjs/seo", "@nuxt/ui", "@nuxtjs/device", "@nuxt/fonts", "nuxt-gtag", "@formkit/nuxt", "nuxt-icons", "nuxt-svgo", "@nuxthub/core", "@formkit/auto-animate", "nuxt-payload-analyzer", "@vueuse/nuxt"],
   alias: {
     '#tailwind-config': './tailwind.config.js'
   },
