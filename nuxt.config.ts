@@ -16,5 +16,22 @@ export default defineNuxtConfig({
   ui: {
     global: true,
     icons: ['mdi', 'simple-icons']
-  }
+  },
+  build: {
+    html: {
+      minify: {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true,
+        preserveLineBreaks: false, // Add this line to minify to one line
+        collapseWhitespace: true, // Add this line to remove extra whitespace
+      },
+    },
+  }  
 })
