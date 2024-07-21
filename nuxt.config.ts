@@ -23,7 +23,8 @@ export default defineNuxtConfig({
     "@nuxthub/core", 
     "@formkit/auto-animate", 
     "nuxt-payload-analyzer", 
-    "@vueuse/nuxt"
+    "@vueuse/nuxt",
+    "@pinia/nuxt"
   ],
   alias: {
     '#tailwind-config': './tailwind.config.js'

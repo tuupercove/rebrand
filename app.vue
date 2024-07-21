@@ -8,13 +8,7 @@
     ></div> -->
 
     <NuxtLayout>
-      <!-- <NuxtLoadingIndicator color="light-blue" errorColor="red" /> -->
-      <NuxtLoadingBar :duration="1000" />
-      <ul>
-        <li v-for="page of pages">
-          <NuxtLink :to="page">{{ page }}</NuxtLink>
-        </li>
-      </ul>
+      <LoadingIndicator /> <!-- color="light-blue" errorColor="red" -->
       <NuxtPage />
     </NuxtLayout>
   </div>
