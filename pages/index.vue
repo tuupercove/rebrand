@@ -9,7 +9,7 @@ const route = useRoute()
     <h1>Home Page</h1>
     <h2>Collacted</h2>
     <UButton color="purple" variant="soft">
-      <ULink to="/ind">Next page</ULink>
+      <NuxtLink to="/ind">Next page</NuxtLink>
     </UButton>
 
     <!--<h1>Nuxt Routing set up successfully!</h1>

@@ -4,7 +4,7 @@
     <div class="card">
       <h1>ok it works</h1>
       <UButton color="purple" variant="soft">
-        <ULink to="/">Home page</ULink>
+        <NuxtLink to="/">Home page</NuxtLink>
       </UButton>
     </div>
   </div>
