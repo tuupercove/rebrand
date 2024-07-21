@@ -1,6 +1,6 @@
-# No Subdomain found for VtuberHub
+# TuuperCove (Nuxt 3)
 
-case stardy สำหรับการทำ no subdomain found เผี่อคนอยากรู้นะ
+move จาก [TuuperCove อันเก่า](https://github.com/tuupercove/tuupercove-old) มาเป็นอันนี้
 
 ## Setup
 
@@ -17,7 +17,7 @@ pnpm install
 yarn install
 
 # bun
-bun install
+bun install (not recommanded)
 ```
 
 ## Development Server
@@ -35,7 +35,7 @@ pnpm run dev
 yarn dev
 
 # bun
-bun run dev
+bun run dev (not recommended)
 ```
 
 ## Production
